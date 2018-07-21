@@ -1,0 +1,212 @@
+body { 
+   padding-top: 50px; 
+}
+
+/* known Boostrap bug: if you don't do this, a thin white bar appears on the left on mobile. */
+html, body {
+  overflow-x: hidden;
+}
+
+.three-steps-section{
+   /* background-color: #E6D9FB; */
+   /* padding-top: 15px; */
+   max-width: 800px;
+   margin-left: auto;
+   margin-right: auto;
+   padding-top: 0px;
+   text-align: center;
+
+}
+
+.main-tagline-section {
+   background-image: url("images/Chicago-evening-fade.jpg");
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: top;
+   padding-top: 30px;
+   /* padding-bottom: 200px; 
+   margin: 0px; */
+   height: 430px;
+}
+
+/* blue color on icons : #32bea6 */
+
+.main-tagline {
+   /* font-size: 40px; */
+   font-size: 32px;
+   font-weight: bold;
+   color: white;
+   /* color: #663399; */
+   text-shadow: 2px 2px black;
+}
+
+.secondary-tagline{
+   font-size: 18px;
+   color: #cdbfe3;
+   text-shadow: 1px 1px black;
+   font-weight: bold;
+   /*font-weight: bold;
+   color: #663399; */
+}
+
+.starter-template {
+   padding: 20px 15px;
+   text-align: center;
+}
+
+.navbar-inverse {
+   /* background-color: #3e313c; */
+   background-color: #6f5499;
+   /* border-color: #372c36; */
+   /* border-color: #42305e; */
+   border: none;
+}
+
+.navbar-inverse .navbar-nav>li>a { color: #cdbfe3; font-weight: bold;}
+
+.navbar-inverse .navbar-brand { 
+   color: white; 
+   text-shadow: 2px 2px #42305e; 
+}
+
+.navbar-toggle {
+  border-color: #42305e !important;
+}
+
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+   color: #fff;
+   background-color: #42305e;
+}
+
+.navbar-brand { 
+   color: white; 
+   font-weight: bold;
+}
+
+.formsubtitle {
+   color: #6f5499;
+   font-size: 16px;
+   padding-left: 5px;
+   font-weight: bold;
+}
+
+#formarea {
+   max-width: 300px;
+   margin: 0 auto;
+   padding: 10px 0px;
+}
+
+/* keeps readonly fields from being greyed out (Bootstrap default) */
+.form-control[readonly] { 
+   background-color:#fff; 
+   cursor: auto; 
+}
+
+
+.grid-textfield {
+   padding-top: 10px;
+   max-width: 200px;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.three-steps-title {
+   color: #6f5499;
+   font-weight: bold;
+   font-size: 25px;
+   text-align: center;
+   padding-top: 20px;
+}
+
+.three-steps-bar {
+   padding-bottom: 7px;
+   border-bottom: 2px #cdbfe3 solid;
+   width: 45px;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.col-md-4{
+   padding: 20px 0px;
+}
+
+.footer {
+   /*
+   color: white;
+   padding: 10px 0px;
+   margin-bottom: 0px;
+   */
+   background-color: #F5F5F5;
+   /* border-top: 1px solid #d3d3d3; */
+   padding: 15px 0px;
+   text-align: center;
+   font-size: small;
+   color: #777;
+   float:bottom;
+}
+
+
+.footer-text { 
+   padding: 0px; 
+   margin: 0px;
+}
+
+.btn-primary {
+   background-color: #6f5499 !important;
+   border: none;
+}
+
+#about-zipform {
+   padding: 10px 0px 20px 0px;
+}
+
+.alert {
+   text-align: center;
+   margin-bottom: 0px;
+}
+
+/* about.php styles */
+.about-content {
+   text-align: center;
+   max-width: 700px;
+   margin-left: auto;
+   margin-right: auto;
+   padding: 30px 20px 40px 20px;
+}
+
+.faq-title {
+   font-size: 20px;
+   font-weight: bold;
+   color: #cdbfe3; /* #6f5499; */
+}
+
+.faq-question, .faq-answer {
+   text-align: left;
+}
+
+.faq-question {
+   color: #6f5499;
+   font-weight: bold;
+}
+
+
+/* delivery screens' styles */
+.delivery-instructions {
+   max-width: 700px;
+   text-align: center;
+   margin-right: auto;
+   margin-left: auto;
+}
+
+.deliveryarea {
+   padding-top: 10px;
+   text-align: center;
+   margin-right: auto;
+   margin-left: auto;
+}
+
+/* prevents modal bug that makes page elements shift */
+.modal { overflow-y: auto; }
+.modal-open { overflow: auto; }
+.modal-open[style] { padding-right: 0px !important; }

@@ -1,0 +1,3 @@
+# Shipfairy Readme #
+
+eb deploy
